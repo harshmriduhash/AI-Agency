@@ -15,11 +15,11 @@ export const services = [
   },
   {
     name: "Разработка Сайтов",
-    path: "/service/WebApp-development",
-    value: "WebApp-development",
+    path: "/service/website-development",
+    value: "website-development",
     description:
       "AiPro Agency специализируется в области создания веб-сайтов, охватывая создание как одностраничных, так и многостраничных веб-проектов. Команда AiPro включает в себя креативных дизайнеров и опытных разработчиков, которые трансформируют идеи в функциональные и привлекательные веб-решения.",
-    types: ["JavaScript", "HTML5", "React.js", "Next.js", "Node.js", "CSS3", "TypeScript", "AWS",],
+    types: ["JavaScript", "HTML5", "React.js", "Next.js", "Node.js", "CSS3", "TypeScript",],
     imageSrc: "/services/website-development.jpg",
   },
   {
@@ -37,7 +37,7 @@ export const services = [
     value: "databases",
     description:
       "Создание и управление базами данных любой сложности — наш профиль. AiPro Agency обеспечивает надежность и безопасность хранения данных, что является ключом к успешной работе вашего бизнеса.",
-    types: ["MongoDb", "Postgresql", "Redis"],
+    types: ["MySql", "Postgresql", "OracleSql"],
     imageSrc: "/services/databases.png",
   },
   {
