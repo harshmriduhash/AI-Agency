@@ -140,7 +140,7 @@ export default function DiscussionForm() {
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)}>
         <p className="mb-[30px] text-3xl xl:mb-[50px] xl:text-4xl">
-          Хочу обсудить
+        I want to discuss
         </p>
 
         {/* Grid */}
@@ -155,7 +155,6 @@ export default function DiscussionForm() {
                   checked={checkboxStates[index]}
                   onCheckedChange={handleCheckboxChange(index)}
                 />
-
                 <label
                   className="cursor-pointer text-xl"
                   htmlFor={`check-${index + 1}`}
@@ -175,7 +174,7 @@ export default function DiscussionForm() {
               render={({ field }) => (
                 <FormItem>
                   <FormControl>
-                    <Input placeholder="Имя" {...field} />
+                    <Input placeholder="Name" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -189,7 +188,7 @@ export default function DiscussionForm() {
               render={({ field }) => (
                 <FormItem>
                   <FormControl>
-                    <Input placeholder="Телефон" {...field} />
+                    <Input placeholder="Mobile Number" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -203,7 +202,7 @@ export default function DiscussionForm() {
               render={({ field }) => (
                 <FormItem>
                   <FormControl>
-                    <Input placeholder="Почта" {...field} />
+                    <Input placeholder="Email Address" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -217,7 +216,7 @@ export default function DiscussionForm() {
               render={({ field }) => (
                 <FormItem>
                   <FormControl>
-                    <Textarea placeholder="Сообщение" {...field} />
+                    <Textarea placeholder="Message" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -227,7 +226,7 @@ export default function DiscussionForm() {
         </div>
 
         {/* Button submit */}
-        <ScrollButton text="Обсудить проект" scrollInto="discussion" isSubmit />
+        <ScrollButton text="Discuss the Project" scrollInto="discussion" isSubmit />
       </form>
     </Form>
   );
