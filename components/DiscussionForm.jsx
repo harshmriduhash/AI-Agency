@@ -122,16 +122,16 @@ export default function DiscussionForm() {
 
       // Show notification
       toast({
-        title: "Форма успешно отправлена!",
-        description: `${formInputs.name}, мы свяжемся с вами в ближайшее время.`,
+        title: "form successfully sent!",
+        description: `${formInputs.name}, we will contact you soon.`,
       });
 
       // Clear form inputs
       form.reset();
     } catch (error) {
       toast({
-        title: "Ошибка при отправке формы",
-        description: "Попробуйте еще раз или свяжитесь с нами по телефону.",
+        title: "Sending Form Failed",
+        description: "Try again or contact us by phone.",
       });
     }
   }
