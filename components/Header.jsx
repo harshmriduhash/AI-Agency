@@ -37,7 +37,6 @@ export default function Header() {
   return (
     <>
       <div className="h-[1px]" ref={markerRef} />
-
       <header
         className={`fixed top-0 z-30 h-[60px] w-full xl:h-[100px] ${isScrolled ? "bg-transparent shadow-xl backdrop-blur-[2px]" : ""}`}
       >
